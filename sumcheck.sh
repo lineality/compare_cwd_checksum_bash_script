@@ -10,7 +10,7 @@ all_same=1  # 1 for true, 0 for false
 script_name=$(basename "$0")
 
 # Start of the script: print information about what the script will do
-echo "Starting the checksum comparison for all files in the current directory."
+echo "Starting the checksum comparison for all files in the current directory..."
 
 # Loop through all files to compute checksums and compare
 for file in *; do
