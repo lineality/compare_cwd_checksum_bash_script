@@ -1,0 +1,1 @@
+# compare_cwd_checksum_bash_script
