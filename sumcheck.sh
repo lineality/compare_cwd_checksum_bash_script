@@ -35,7 +35,7 @@ done
 
 # Final output based on whether all files had the same checksum
 if [ $all_same -eq 1 ]; then
-    echo "All files have the same checksum."
+    echo "OK: all files have SAME checksum"
 else
-    echo "Not all files have the same checksum."
+    echo "NOT: all files do not have the same checksum."
 fi
