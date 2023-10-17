@@ -6,7 +6,7 @@ reference_checksum=""
 # Variable to keep track if all checksums are the same
 all_same=1  # 1 for true, 0 for false
 
-# The name of the script itself
+# The name of the script itself (to avoid checking itself)
 script_name=$(basename "$0")
 
 # Start of the script: print information about what the script will do
